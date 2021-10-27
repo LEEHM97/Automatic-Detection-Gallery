@@ -1,1 +1,10 @@
-# Automatic-Detection-Gallery
+# ADG  
+Automatic Detection Gallery
+---
+### 팀원 소개
+박노준 : 팀장  
+박건우 : 메인 앱 개발  
+이현민 : 데이터셋 구성 및 학습  
+정은진 : 데이터셋 구성 및 앱 개발 도움  
+---
+### 프로젝트 소개
