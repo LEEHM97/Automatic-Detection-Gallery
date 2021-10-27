@@ -13,9 +13,19 @@ ___
 
 ------------
 ## Dataset
+- LVIS Dataset
+- Place365 Dataset
+- Food Dataset  
+　　&#43;
+- Google image Crawling  
+
+-> 330개 이상의 classes &#43; 100000장 이상의 train images
 
 ------------
+## Model
 
+
+------------
 ## Application
 1. 메인 화면
 2. 검색 화면
