@@ -37,10 +37,13 @@ ___
         + max_batches: 660000
         + mosaic: 1
 4. tflite로 변환
-    + 안드로이드 프로젝트에 모델을 탑재하기 위해 .weight 파일을 .tfilte로 변환
+    + 안드로이드 프로젝트에 모델을 탑재하기 위해 .weight 파일을 .tfilte로 변환  <img src=https://user-images.githubusercontent.com/65718183/139207444-6cb59556-e8a7-46f7-b20d-f75e08ec28f4.JPG width="900" height="200"/>  
+
+&#35; Github의 용량 제한으로 인해 모델이 앱에 포함되지 않았습니다. 다음 링크[링크]를 통해 저장한 모델을 app/src/main/assets에 넣어야 정상 작동합니다.
 
 ------------
 ## Application
 1. 메인 화면
 2. 검색 화면
-3. 태그 CRUD
+3. 태그 CRUD  
+이거 화면 넣을까 말까...?
