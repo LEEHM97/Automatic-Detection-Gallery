@@ -23,7 +23,21 @@ ___
 
 ------------
 ## Model
-
+1. Dataset 가공
+    + 수집한 Dataset은 LabelImg프로그램을 이용해 Bounding Box를 지정하여 라벨링 수행
+    
+2. 모델링
+    + Yolov4 Darknet을 이용해 모델 생성
+ 
+3. 학습
+    + 학습 진행을 위해 yolov4_train.cfg파일을 아래와 같이 설정
+        + batch: 64
+        + subdivisions: 32
+        + width, height: 416
+        + max_batches: 660000
+        + mosaic: 1
+4. tflite로 변환
+    + 안드로이드 프로젝트에 모델을 탑재하기 위해 .weight 파일을 .tfilte로 변환
 
 ------------
 ## Application
