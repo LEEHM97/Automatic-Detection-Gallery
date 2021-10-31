@@ -9,8 +9,13 @@ ___
 
 ------------
 ## 프로젝트 소개
-태그 기반의 검색으로 원하는 사진을 빠르게 찾을 수 있고 사용자의 태그 **Customizing**이 가능한 갤러리 앱  
-
+태그 기반의 검색으로 원하는 사진을 빠르게 찾을 수 있고, 사용자의 태그 **Customizing**이 가능한 갤러리 앱  
+- Auto Tagging
+- Fast Searching
+- Tag Customizing
+- Real-time Detection
+------------
+## 시스템 구성
 ------------
 ## Dataset
 - LVIS Dataset
@@ -35,9 +40,11 @@ ___
         + subdivisions: 32
         + width, height: 416
         + max_batches: 660000
+        + steps: 528000, 594000
         + mosaic: 1
+        + classes: 330
+        + filters: 1005
 4. tflite로 변환
     + 안드로이드 프로젝트에 모델을 탑재하기 위해 .weight 파일을 .tfilte로 변환  <img src=https://user-images.githubusercontent.com/65718183/139207444-6cb59556-e8a7-46f7-b20d-f75e08ec28f4.JPG width="900" height="180"/>  
-
-&#35; Github의 용량 제한으로 인해 모델이 앱에 포함되지 않았습니다. 다음 [링크](https://drive.google.com/file/d/1aibqzVww5qQXNbhwtmWB165RQ6TrCdy7/view?usp=sharing)를 통해 저장한 모델을 app/src/main/assets에 넣어야 정상 작동합니다.
-
+    + 
+# Github의 용량 제한으로 인해 이 앱에 포함되지는 않습니다. 다음 [ 링크 ] (https://drive.google.com/file/d/1aibqzVww5qQXNbhwtmWB165RQ6TrCdy7/view?usp=sharing) 를 통해 저장한 모델을 app/src/main/assets에 이르게 하면 승리합니다.
