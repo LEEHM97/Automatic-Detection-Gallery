@@ -16,6 +16,8 @@ ___
 - Real-time Detection
 ------------
 ## 시스템 구성
+![image](https://user-images.githubusercontent.com/67961082/139584477-815578a9-8384-44b7-8295-f8ac8e7e2dee.png)
+
 ------------
 ## Dataset
 - LVIS Dataset
