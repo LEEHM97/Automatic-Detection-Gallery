@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.GallerySearch.NoActionBar.Fullscreen" parent="Theme.GallerySearch.NoActionBar">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.GallerySearch.NoActionBar.ActionBar.Fullscreen</item>r
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#66000000</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

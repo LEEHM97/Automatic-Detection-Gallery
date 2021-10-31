@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_list_item_array">
+        <item>시간오름차순</item>
+        <item>시간내림차순</item>
+        <item>이름오름차순</item>
+        <item>이름내림차순</item>
+        <item>크기오름차순</item>
+        <item>크기내림차순</item>
+    </string-array>
+</resources>
