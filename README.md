@@ -1,5 +1,6 @@
 # ADG  <img src=https://user-images.githubusercontent.com/65718183/139021701-1237017a-2601-44ae-9c9b-8a972203e504.png width="40" height="40"/>
 Automatic Detection Gallery　
+2021 상명대학교 캡스톤디자인 경진대회 융합공과대학부분 우수상
 ___
 ## 팀원 소개
 박노준 : 팀장 및 데이터셋 구성  
